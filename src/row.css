@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.row_container{
+    text-align: center;
+    /* background-color: rgb(224 224 224); */
+    margin : 20px 0;
+    color: white;
+}
+.row_items{
+    display: flex; 
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-top: 10px;   
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.row_item{
+    object-fit: contain;
+    max-width: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+    padding: 10px;
+}
+
+.row_item:hover{
+    transform: scale(1.09);
+}
+.row_main{
+    max-width: 170px;
+}

@@ -1,0 +1,56 @@
+.ban_container{
+    color: white;
+    object-fit: contain;
+    background-size: cover;
+    height: 448px;
+    
+}
+.banner{
+    padding-top: 70px;
+    padding-left: 30px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 50px; */
+}
+.title{
+    /* color: brown; */
+    background-color: rgba(17, 17, 17, 0.5);
+    border-radius: 10px;
+    padding: 0 10px;
+    /* margin-right: 100px; */
+}
+.buttons{
+    padding-top: 10px;
+}
+.ban_button{
+    padding: 10px;
+    margin: 20px;
+    margin-right: 2px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.767);
+    color: black;
+    transition: all 450ms;
+}
+.ban_button:hover{
+    background-color: #111;
+    color: white;
+    cursor: pointer;
+}
+.overview{
+    width: 50%;
+
+    font-size: 0.7rem;
+}
+.blur{
+    height: 200px;
+    z-index: 10;
+    margin-top: -200px;
+    margin-bottom: -50px;
+    /* border: 2px solid red; */
+    background: linear-gradient(
+        rgba(0, 0, 0, 0) , #111
+    );
+}

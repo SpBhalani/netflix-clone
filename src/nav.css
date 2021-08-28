@@ -1,0 +1,32 @@
+
+.nav{
+    position: fixed;
+    height: 10vh;
+    margin: 50px;
+    width: 15vw;
+    background-color: black;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 150px;
+
+}
+
+
+.img img{
+    width: 110px;
+    object-fit: contain;
+    /* padding-left: 20px; */
+}
+
+.img{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 11vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
